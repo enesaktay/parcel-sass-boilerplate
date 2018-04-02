@@ -29,5 +29,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/enesaktay/parcel-sass-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enesaktay/parcel-sass-boilerplate/issues"
   }
 }
