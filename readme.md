@@ -26,7 +26,7 @@ To deploy to production run `yarn prod` or `npm prod`.
 
 ## Contributing
 
-I am open for every contribute and change request. 
+I am open for every contribute and pull requests. 
 
 
 ## License
