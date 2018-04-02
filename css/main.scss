@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+// Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// Page-specific styles
+@import
+  'pages/home';

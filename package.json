@@ -1,0 +1,33 @@
+{
+  "name": "parcel-sass-boilerplate",
+  "version": "1.0.0",
+  "description" : "A boilerplate for parcel including sass and the directory structure",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel index.html",
+    "prod": "./node_modules/.bin/parcel build index.html",
+    "postinstall": "./node_modules/.bin/parcel index.html"
+  },
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.8.3",
+    "normalize.css": "^8.0.0",
+    "parcel-bundler": "^1.7.0",
+    "postcss-modules": "^1.1.0"
+  },
+  "keywords": [
+    "parcel",
+    "sass",
+    "boilerplate"
+  ],
+  "author": "Enes Aktay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enesaktay/parcel-sass-boilerplate.git"
+  }
+}
