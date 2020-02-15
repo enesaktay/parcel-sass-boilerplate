@@ -1,24 +1,17 @@
 {
   "name": "parcel-sass-boilerplate",
-  "version": "1.0.0",
-  "description" : "A boilerplate for parcel including sass and the directory structure",
-  "license": "MIT",
+  "version": "2.0.0",
+  "description": "A boilerplate for parcel including sass and the directory structure",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/parcel index.html",
     "prod": "./node_modules/.bin/parcel build index.html",
     "postinstall": "./node_modules/.bin/parcel index.html"
   },
-  "engines": {
-    "node": ">=4",
-    "npm": ">=3"
-  },
-  "dependencies": {
-    "autoprefixer": "^8.2.0",
-    "jquery": "^3.3.1",
-    "node-sass": "^4.8.3",
-    "normalize.css": "^8.0.0",
-    "parcel-bundler": "^1.7.0",
-    "postcss-modules": "^1.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enesaktay/parcel-sass-boilerplate.git"
   },
   "keywords": [
     "parcel",
@@ -26,11 +19,17 @@
     "boilerplate"
   ],
   "author": "Enes Aktay",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/enesaktay/parcel-sass-boilerplate.git"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/enesaktay/parcel-sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/enesaktay/parcel-sass-boilerplate#readme",
+  "devDependencies": {
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "normalize.css": "^8.0.1",
+    "parcel-bundler": "^1.12.4"
   }
 }
